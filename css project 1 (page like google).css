@@ -1,0 +1,146 @@
+body{
+	font-family: arial sanserif;
+}
+header{
+	display: grid;
+	grid-template-columns: 4% 4% 4% 4%;
+	justify-content: end;
+	
+	
+	
+	
+
+}
+.toptext{
+	color: black;
+	text-decoration: none;
+	position: relative;
+	top: 25%;
+
+
+}
+.toptext:hover{
+	text-decoration: underline;
+
+}
+#dropdown{
+	position: relative;
+	top: 30%;
+	text-align: center;
+	display: inline-block;
+}
+#profileimage{
+	width: 32px;
+	height: 32px;
+	border-radius: 32px;
+	position: relative;
+	top: 10%;
+}
+#search{
+
+	width: 582px;
+	color: #222;
+	border: 1px solid #dfe1e5;
+	font-size: 13px;
+	padding: 14px;
+	border-radius: 24px;
+	outline: none;
+}
+#search:hover,#search:focus{
+	box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+	border-color: rgba(223,225,229,0);
+}
+.button{
+	background color: #f2f2f2;
+	color: #5F6368;
+	font-size: 14px;
+	height: 36px;
+	padding: 0 16px;
+	background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+	border: 1px solid transparent;
+	box-shadow: 0 1px 1px rgba(0,0,0,0);
+	color: #222;
+
+}
+.button:hover{
+	background-image:linear-gradient(top,#f8f8f8,#f1f1f1);
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	color: #222;
+}
+section{
+	display: grid;
+	grid-column: auto;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-45%);
+
+
+	
+}
+#mic{
+	height: 30px;
+	position: relative;
+	right: 45px;
+	top: 10px;
+}
+.section{
+	text-align: center;
+}
+.section:nth-of-type(2){
+	margin: 20px 0;
+}
+#menubar{
+	width: 350px;
+	
+	padding: 28px;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 10px rgba(0,0,0,.2);
+	display: grid;
+
+	grid-template-columns: auto auto auto;
+	
+	
+	position: absolute;
+	right: 35%;
+	box-sizing: border-box;
+	display: none;
+	
+}
+
+.image{
+	width: 50px;
+	height: 50px;
+
+
+}
+#menubar div{
+	
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid white;
+
+
+
+}
+#menubar div:hover{
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	
+}
+#menubar p{
+	color: rgba(0,0,0,0.87);
+	
+}
+.image{
+	position: relative;
+	top: 10px;
+
+}
+#dropdown:hover #menubar{
+	display: grid;
+}
+.topbar{
+	text-align: center;
+}
